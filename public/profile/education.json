@@ -1,19 +1,19 @@
 {
-    "education":[
-        {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
-        },
-        {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
-        }
-    ]
+  "education": [
+    {
+      "title": "Мамыр 2010-2021",
+      "cardTitle": "№46 мектеп",
+      "cardSubtitle": "№46 мектеп, Алматы",
+        "cardDetailedText": "Оқу Үлгерімі - Өте Жақсы"
+    },
+    {
+      "title": "Қыркүйек 2021 - Jun 2025",
+      "cardTitle": "IT, Digital Management and Design",
+      "cardSubtitle": "Нархоз университеті, Алматы",
+      "cardDetailedText": "GPA - 3.15",
+      "icon": {
+        "src": "images/education/lorem-ipsum.png"
+      }
+    }
+  ]
 }

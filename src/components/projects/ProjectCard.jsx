@@ -16,6 +16,7 @@ const styles = {
   },
   cardStyle: {
     borderRadius: 10,
+    height: '600px',
   },
   cardTitleStyle: {
     fontSize: 24,
@@ -31,6 +32,11 @@ const styles = {
   buttonStyle: {
     margin: 5,
   },
+  imageStyle: {
+    width: '100%',
+    height: '300px', // Задайте желаемую высоту
+    objectFit: 'cover', // Это свойство позволяет сохранить соотношение сторон изображения, обрезая его по краям, если необходимо
+  },
 };
 
 const ProjectCard = (props) => {
@@ -40,52 +46,52 @@ const ProjectCard = (props) => {
   const { project } = props;
 
   return (
-    <Col>
-      <Card
-        style={{
-          ...styles.cardStyle,
-          backgroundColor: theme.cardBackground,
-          borderColor: theme.cardBorderColor,
-        }}
-        text={theme.bsSecondaryVariant}
-      >
-        <Card.Img variant="top" src={project?.image} />
-        <Card.Body>
-          <Card.Title style={styles.cardTitleStyle}>{project.title}</Card.Title>
-          <Card.Text style={styles.cardTextStyle}>
-            {parseBodyText(project.bodyText)}
-          </Card.Text>
-        </Card.Body>
+      <Col>
+        <Card
+            style={{
+              ...styles.cardStyle,
+              backgroundColor: theme.cardBackground,
+              borderColor: theme.cardBorderColor,
+            }}
+            text={theme.bsSecondaryVariant}
+        >
+          <Card.Img variant="top" style={styles.imageStyle} src={project?.image} />
+          <Card.Body>
+            <Card.Title style={styles.cardTitleStyle}>{project.title}</Card.Title>
+            <Card.Text style={styles.cardTextStyle}>
+              {parseBodyText(project.bodyText)}
+            </Card.Text>
+          </Card.Body>
 
-        <Card.Body>
-          {project?.links?.map((link) => (
-            <Button
-              key={link.href}
-              style={styles.buttonStyle}
-              variant={'outline-' + theme.bsSecondaryVariant}
-              onClick={() => window.open(link.href, '_blank')}
-            >
-              {link.text}
-            </Button>
-          ))}
-        </Card.Body>
-        {project.tags && (
-          <Card.Footer style={{ backgroundColor: theme.cardFooterBackground }}>
-            {project.tags.map((tag) => (
-              <Badge
-                key={tag}
-                pill
-                bg={theme.bsSecondaryVariant}
-                text={theme.bsPrimaryVariant}
-                style={styles.badgeStyle}
-              >
-                {tag}
-              </Badge>
+          <Card.Body>
+            {project?.links?.map((link) => (
+                <Button
+                    key={link.href}
+                    style={styles.buttonStyle}
+                    variant={'outline-' + theme.bsSecondaryVariant}
+                    onClick={() => window.open(link.href, '_blank')}
+                >
+                  {link.text}
+                </Button>
             ))}
-          </Card.Footer>
-        )}
-      </Card>
-    </Col>
+          </Card.Body>
+          {project.tags && (
+              <Card.Footer style={{ backgroundColor: theme.cardFooterBackground }}>
+                {project.tags.map((tag) => (
+                    <Badge
+                        key={tag}
+                        pill
+                        bg={theme.bsSecondaryVariant}
+                        text={theme.bsPrimaryVariant}
+                        style={styles.badgeStyle}
+                    >
+                      {tag}
+                    </Badge>
+                ))}
+              </Card.Footer>
+          )}
+        </Card>
+      </Col>
   );
 };
 

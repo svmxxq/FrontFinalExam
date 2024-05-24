@@ -1,3 +1,24 @@
+.animated-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.animated-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.animated-button:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
 .entry .body{
     margin: 0 0 1em;
 }

@@ -1,5 +1,5 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "intro": "Мен жаңа технологиялар әлеміне еніп, жаңа нәрсені ашқанды ұнатамын. Инновациямен тәжірибе жасау-бұл менің жұмысым ғана емес, бұл менің қызығушылығым. Міне, мен жұмыс істеген технологиялардың кең тізімінен бірнеше мысалдар:",
     "skills": [{
      
             "title": "Languages & Databases",
@@ -14,7 +14,7 @@
                     "title": "PHP"
                 },
                 {
-                    "icon": "images/skills/js.png",
+                    "icon": "images/skills/LogoJs.webp",
                     "title": "JavaScript"
                 },
                 {
@@ -24,14 +24,18 @@
                 {
                     "icon": "images/skills/mysql.png",
                     "title": "MySQL"
+                },
+                {
+                    "icon": "images/skills/LogoLaravel.png",
+                    "title": "Laravel"
                 }
         ]},
         {
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
+                    "icon": "images/skills/spring.png",
+                    "title": "Spring"
                 },
                 {
                     "icon": "images/skills/react.png",
@@ -44,19 +48,53 @@
             ]
         },
         {
+            "title": "Design",
+            "items" : [
+                {
+                    "icon": "images/skills/LogoAfter.webp",
+                    "title": "After Effects"
+                },
+                {
+                    "icon": "images/skills/LogoAi.png",
+                    "title": "Adobe illustrator"
+                },
+                {
+                    "icon": "images/skills/LogoFigma.png",
+                    "title": "Figma"
+                },
+                {
+                    "icon": "images/skills/LogoPhotoshop.png",
+                    "title": "Photoshop"
+                }
+            ]
+        },
+        {
+            "title": "Design",
+            "items" : [
+                {
+                    "icon": "images/skills/LogoMaya.png",
+                    "title": "Autodesk Maya"
+                },
+                {
+                    "icon": "images/skills/Logo3dsMax.png",
+                    "title": "3ds Max"
+                }
+            ]
+        },
+        {
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
+                    "icon": "images/skills/jetbrains.png",
+                    "title": "JetBrains"
                 },
                 {
-                    "icon": "images/skills/git.png",
+                    "icon": "images/skills/LogoGit.png",
                     "title": "Git"
                 },
                 {
-                    "icon": "images/skills/docker.png",
-                    "title": "Docker"
+                    "icon": "images/skills/LogoVersel.png",
+                    "title": "Vercel"
                 }
             ]
     }

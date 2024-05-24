@@ -1,33 +1,22 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "3D | Модельдеу| Визуализация | Анимация",
+                "subtitle": "Dansai:",
+            "workType": "Стажировка",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Командамен жұмыс жасай білу, жауапкершілік, берілген жұмыстарды, модельдерді уақытылы жасап отыру"
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "01.02.2024 – 20.05.2024"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "UI - UX дизайнері",
+            "subtitle": "Alem Sharla:",
+            "workType": "Стажировка",
             "workDescription": [
-                "Worked on abc."
+                "Figma қолданбасында Alem Sharla компаниясына логотип жасау. Инстаграм аккаунттағы видеоларға обложка жасау"
             ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "15.10.2024 - 27.11.2024"
         }
     ]
 }

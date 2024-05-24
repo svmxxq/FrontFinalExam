@@ -3,27 +3,27 @@
         {
             "component": "About",
             "path": "/about",
-            "headerTitle": "About"
+            "headerTitle": "Өзі туралы"
         },
         {
             "component": "Skills",
             "path": "/skills",
-            "headerTitle": "Skills"
+            "headerTitle": "Дағды"
         },
         {
             "component": "Education",
             "path": "/education",
-            "headerTitle": "Education"
+            "headerTitle": "Білім"
         },
         {
             "component": "Experience",
             "path": "/experience",
-            "headerTitle": "Experience"
+            "headerTitle": "Жұмыс тәжірибе"
         },
         {
             "component": "Projects",
             "path": "/projects",
-            "headerTitle": "Projects"
+            "headerTitle": "Жобалар"
         }
     ]
 }

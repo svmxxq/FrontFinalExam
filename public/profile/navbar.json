@@ -6,33 +6,28 @@
     },
     "sections": [
         {
-            "title": "Home",
+            "title": "Басты бет",
             "href": "/"
         },
         {
-            "title": "About",
+            "title": "Өзім Туралы",
             "href": "/about"
         },
         {
-            "title": "Skills",
+            "title": "Дағды",
             "href": "/skills"
         },
         {
-            "title": "Education",
+            "title": "Білім",
             "href": "/education"
         },
         {
-            "title": "Experience",
+            "title": "Жұмыс тәжірибелерім ",
             "href": "/experience"
         },
         {
-            "title": "Projects",
+            "title": "Жобалар",
             "href": "/projects"
-        },
-        {
-            "title": "Resume",
-            "href": "https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view?usp=sharing",
-            "type": "link"
         }
     ]
 

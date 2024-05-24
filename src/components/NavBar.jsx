@@ -11,6 +11,7 @@ const styles = {
     width: 50,
     height: 40,
   },
+
 };
 
 const ExternalNavLink = styled.a`
